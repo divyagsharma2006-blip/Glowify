@@ -1,0 +1,36 @@
+/* src/index.css - Replace with your teal theme */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Custom teal theme colors */
+.bg-teal-custom {
+  background-color: #5fb3a2;
+}
+
+.text-teal-custom {
+  color: #5fb3a2;
+}
+
+.border-teal-custom {
+  border-color: #5fb3a2;
+}
+
+.hover-bg-teal-custom:hover {
+  background-color: #5fb3a2;
+}
