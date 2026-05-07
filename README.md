@@ -1,73 +1,41 @@
-# React + TypeScript + Vite
+🚀 Introducing Glowify – Your Personalized Skin & Health Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We’re excited to share our project Glowify, a smart skincare and wellness platform designed to help individuals understand and improve their skin health using technology.
 
-Currently, two official plugins are available:
+💡 What Glowify does:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ AI-Based Face Analysis
+Glowify uses facial scanning (powered by computer vision) to analyze skin conditions and provide personalized recommendations.
 
-## React Compiler
+🌿 Smart Recommendations
+Suggests home ingredients and relevant chemical components to help users choose the right skincare products—without promoting any brand.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🤖 Alternative Chatbot Support
+Not comfortable with face scanning? No problem. Our chatbot asks a set of questions and provides tailored suggestions based on your responses.
 
-## Expanding the ESLint configuration
+🧪 Chemical Safety Checker
+Users can explore whether combinations of different chemicals are safe or harmful for their skin.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📊 Health Tracker
+Track daily habits like water intake 💧 and sleep cycle 😴, as they directly impact skin health.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🧠 Fun & Learning Section
+Includes quizzes to test and improve your knowledge about skincare and health.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🎮 Glow Play
+Interactive mini-games to make the experience engaging and enjoyable.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🔒 Privacy First
+Glowify focuses on user well-being and does not promote or advertise any products.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🛠️ Technical Stack
+Frontend :- TypeScript
+Backend :- Python
+Computer Vision :- OpenCV
+Database :- Supabase
+Authentication :- Supabase Auth
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+
+#Glowify #SkincareTech #AI #ComputerVision #WebDevelopment #StudentProject #Innovation #TechForGood #WomenInTech #FullStackDevelopment #Python #TypeScript #OpenCV #Supabase #SelfCare #SmartTechnology #BuildInPublic
