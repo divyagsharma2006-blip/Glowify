@@ -2,8 +2,8 @@
 
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
-![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)
-![AI](https://img.shields.io/badge/AI-Skincare%20Analysis-green)
+![Supabase](https://img.shields.io/badge/Backend-Supabase-green)
+![AI](https://img.shields.io/badge/AI-Skincare%20Analysis-purple)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
@@ -152,9 +152,9 @@ Users can:
 
 ## Backend & Database
 
-* Firebase Authentication
-* Firebase Firestore
-* Firebase Storage
+* Supabase Authentication
+* Supabase PostgreSQL Database
+* Supabase Storage
 
 ## AI & APIs
 
@@ -206,10 +206,10 @@ Glowify/
 
 ---
 
-## Firebase Integration
+## Supabase Integration
 
 ✅ User Authentication
-✅ Firestore Database
+✅ PostgreSQL Database
 ✅ Cloud Storage Integration
 
 ---
@@ -314,15 +314,15 @@ npm install
 
 ---
 
-## 3️⃣ Configure Firebase
+## 3️⃣ Configure Supabase
 
-Create Firebase configuration inside:
+Create Supabase configuration inside:
 
 ```bash
-src/lib/firebase.ts
+src/lib/supabase.ts
 ```
 
-Add your Firebase credentials.
+Add your Supabase credentials.
 
 ---
 
@@ -331,9 +331,8 @@ Add your Firebase credentials.
 Create a `.env` file:
 
 ```env
-VITE_FIREBASE_API_KEY=your_key
-VITE_FIREBASE_AUTH_DOMAIN=your_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 ---
@@ -354,8 +353,8 @@ http://localhost:5173
 
 # 🔐 Security
 
-✅ Firebase Authentication
-✅ Secure Cloud Firestore
+✅ Supabase Authentication
+✅ Secure PostgreSQL Database
 ✅ Environment Variable Configuration
 ✅ Protected User Data Handling
 
